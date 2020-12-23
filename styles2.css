@@ -1,0 +1,49 @@
+
+      @keyframes ani {
+        0% {top: 0px;
+        background-color: cadetblue;
+        }
+        50% {top: 200px;
+            background-color: blueviolet;
+        }
+        75%{
+            left:0px;
+            background-color: aquamarine;
+        }
+        100%{
+            left: 300px;
+            background-color: brown;
+        }
+    }
+
+  
+    .red{
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+       
+        left: 210px;
+        top: 210px;
+    }
+    .blue{
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+      position: absolute;
+      left :110px;
+      top: 110px;
+
+    }
+   
+    .yellow{
+        animation: ani 3s  infinite  alternate;
+       
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+        position: relative;
+    }
+    body{
+        margin: 0px;
+    }
